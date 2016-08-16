@@ -1,0 +1,73 @@
+@media all and (min-width: 1200px) {
+    /*=======================================================*/
+    /*FRAMSIDA*/
+    /*badge*/
+    .infoblock .badge {
+        display: block;
+    }
+    /*=======================================================*/
+    /*Lägenheter och filtrering*/
+    /*Filter header*/
+    .grid .obj .objinfo {
+        height: 230px;
+    }
+    /*filter sidebar*/
+    #startfilter input[type=submit] {
+        margin-left: 28px;
+    }
+    /*--------------------------------------*/
+    /*sharing*/
+    .share {
+        font-size: 11px;
+        line-height: 130%;
+        margin-top: 30px;
+        background: #efefef;
+        padding: 10px;
+    }
+    .share p {
+        width: 65%;
+        margin-right: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*--------------------------------------*/
+    /*bildlista*/
+    .grid .obj {
+        height: 470px;
+    }
+    .grid .obj img {
+        width: 260px;
+        height: 195px;
+    }
+    /*--------------------------------------*/
+    /*list lista*/
+    .list .obj img {
+        display: inline-block;
+    }
+    .list .obj .objinfo {
+        width: 464px;
+    }
+    .list .obj .btns-wrap {
+        margin: 36px 0 0 27px;
+    }
+}
+
+
+/* ======================================================================== */
+
+@media all and (min-width: 1620px) {
+    /*FRAMSIDA*/
+    /*--------------------------------------*/
+    /*toppblock ej inloggad*/
+    .topp-block-front {
+        height: 600px;
+    }
+    .infoblock {
+        padding-top: 55px;
+    }
+    /*--------------------------------------*/
+    /*badge*/
+    .infoblock .badge {
+        top: 185px;
+    }
+}

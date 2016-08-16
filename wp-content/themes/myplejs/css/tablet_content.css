@@ -1,0 +1,264 @@
+@media all and (min-width: 600px) {
+    /*------------------------------------*/
+    /*toppblock ej inloggad*/
+    .infoblock {
+        padding-top: 50px;
+    }
+}
+
+
+/* ======================================================================== */
+
+@media all and (min-width: 768px) {
+    /*general*/
+    .pagecontainer {
+        padding-top: 65px;
+    }
+    /*=======================================================*/
+    /*FRAMSIDA*/
+    /*----------------------*/
+    /*toppblock ej inloggad*/
+    .topp-block-front {
+        height: 500px;
+    }
+    .infoblock {
+        padding-top: 13px;
+    }
+    .infoblock h1 {
+        font-size: 50px;
+        padding: 70px 0 20px 0;
+        margin: 0;
+    }
+    .infoblock h2 strong {
+        padding-top: 20px;
+        font-size: 23px;
+        margin-bottom: 17px;
+    }
+    .infoblock h2 {
+        font-size: 16px;
+        margin-bottom: 40px;
+        margin-top: 27px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+    .topp-block-front .infoblock p {
+        font-size: 16px;
+    }
+    /*--------------------------------------*/
+    /*betyg*/
+    .betygreco {
+        display: block;
+    }
+    .betygreco img {
+        margin-top: 9px;
+    }
+    /*knappar*/
+    .btn-big-green,
+    .btn-big-blue {
+        margin: 0 12px 10px 12px;
+    }
+    /*--------------------------------------*/
+    /*breadcrumb*/
+    .breadcrumbs {
+        border-bottom: 1px solid #eee;
+    }
+    .breadcrumbs .tillbaka {
+        margin-bottom: 0;
+    }
+    /*------------------------------------*/
+    /*toppblock inloggad*/
+    .topp-block-front-inloggad {
+        display: block;
+    }
+    /*=======================================================*/
+    /*Lägenheter och filtrering*/
+    /*Filter header*/
+    .objlist-header-bg {
+        display: block;
+    }
+    /*--------------------------------------*/
+    /*filter sidebar*/
+    #obj-filter-sidebar {
+        margin-bottom: 0;
+        display: block;
+    }
+    #startfilter input[type=submit] {
+        width: 146px;
+        margin-left: -14px;
+    }
+    /*--------------------------------------*/
+    /*presentation box*/
+    .presentation {
+        display: block;
+    }
+    /*--------------------------------------*/
+    /*sharing*/
+    .share {
+        font-size: 11px;
+        line-height: 130%;
+        margin-top: 30px;
+        background: #efefef;
+        padding: 10px;
+        display: block;
+    }
+    .share p {
+        width: 100%;
+        margin-right: 20px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    /*fmi*/
+    .fmi {
+        display: block;
+    }
+    /*--------------------------------------*/
+    /*betyg*/
+    .betygreco {
+        margin-top: 50px;
+    }
+    .betygreco span {
+        font-size: 20px;
+        text-shadow: 0 0 30px #000;
+    }
+    .betygreco img {
+        width: 120px;
+        height: 37px;
+    }
+    /*--------------------------------------*/
+    #listawrapper {
+        margin-top: 0;
+    }
+    /*bildlista*/
+    .grid .obj {
+        height: 462px;
+    }
+    .grid .obj .objinfo {
+        height: 230px;
+    }
+    .grid .obj img {
+        max-height: 187px;
+    }
+    /*knapp*/
+    .grid .obj .btns-wrap {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*=======================================================*/
+    /*Content*/
+    /*sidebar*/
+    #sidebar {
+        margin-top: 0;
+    }
+    /*=======================================================*/
+    /*single object*/
+    .single-objects #content {
+        margin-bottom: 40px;
+    }
+    h1.objtitle {
+        font-size: 28px;
+    }
+    .obj-details ul {
+        margin-bottom: 13px;
+    }
+    .obj-details ul li {
+        width: 22%;
+        margin-right: 3%;
+        margin-bottom: 0px;
+    }
+    /*slider*/
+    .slicksliderobj .slick-slide img {
+        max-height: 300px;
+    }
+    /*intressebox*/
+    .intressefonstermobil {
+        display: none;
+    }
+    .intressefonsterdesktop {
+        display: block;
+    }
+    /*=======================================================*/
+    /*Footer*/
+    .footermenu-screen li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .footermenu-screen li a {
+        font-weight: 600;
+    }
+    .footermenu-screen .sub-menu {
+        display: none;
+    }
+    .footermenu-screen li:after {
+        content: '|';
+        color: #ccc;
+        margin-left: 10px;
+    }
+    .footermenu-screen li:last-child:after {
+        content: '';
+        margin-left: 0;
+    }
+    .footermenu-screen li.last {
+        float: none;
+    }
+}
+
+
+/* ======================================================================== */
+
+@media all and (min-width: 990px) {
+    /*=======================================================*/
+    /*Lägenheter och filtrering*/
+    /*filter sidebar*/
+    #startfilter input[type=submit] {
+        width: 175px;
+        margin-left: 0px;
+    }
+    /*--------------------------------------*/
+    /*bildlista*/
+    .grid .obj {
+        height: 508px;
+    }
+    .grid .obj .objinfo {
+        height: 218px;
+    }
+    .grid .obj img {
+        max-height: 248px;
+    }
+    /*--------------------------------------*/
+    /*list lista*/
+    .list .obj .objinfo {
+        padding-bottom: 10px;
+    }
+    /*knapp*/
+    .list .obj .btn-small,
+    .btn-small {
+        display: block;
+    }
+    .list .obj .btn-bookmark,
+    .btn-bookmark {
+        display: block;
+    }
+    .list .obj .btns-wrap {
+        float: left;
+        width: auto;
+        margin: 36px 0 0 57px;
+    }
+}
+
+
+/* ======================================================================== */
+
+@media all and (min-width: 1024px) {
+    /*=======================================================*/
+    /*FRAMSIDA*/
+    /*----------------------*/
+    /*toppblock inloggad*/
+    /*slider*/
+    .slickslider {
+        margin-bottom: 30px;
+    }
+    /*nyhetsblock*/
+    .news-box {
+        padding-top: 50px;
+    }
+}

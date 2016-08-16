@@ -1,0 +1,94 @@
+@media all and (min-width: 20px) {
+    #wpadminbar {
+        direction: ltr;
+        color: #ccc;
+        font: 400 13px/32px "Open Sans", sans-serif;
+        height: 32px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-width: 600px;
+        z-index: 99999999999;
+        background: #23282d;
+    }
+    /* ----------------------------- */
+    /*hide screen meny*/
+    .footermenu-screen,
+    .menu-wrap {
+        display: none;
+    }
+    /* ----------------------------- */
+    /*mobil menu */
+    .mobile-header {
+        position: fixed;
+        display: block;
+        background: rgba(255, 255, 255, 1);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #fff;
+        z-index: 999;
+        -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.26);
+        -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.26);
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.26);
+    }
+    .mobile-header a {
+        display: inline-block;
+    }
+    .mobile-header a i {
+        color: #06CA0F;
+        font-size: 25px;
+        margin: 13px 0 0 13px;
+    }
+    .logotype-mob {
+        width: 130px;
+        height: 31px;
+        right: 13px;
+        position: absolute;
+        top: 0px;
+        margin-top: 9px;
+    }
+    /*lang switch*/
+    .mobile-header .langswitch {
+        display: inline-block;
+    }
+    .mobile-header .langswitch img {
+        width: 30px;
+        height: 19px;
+        margin-bottom: 9px;
+        margin-left: 10px;
+    }
+    /* ----------------------------- */
+    /*mmenu*/
+    .mm-list a.mm-subopen {
+        color: #000;
+    }
+    .mm-menu {
+        background: #EFEFEF;
+    }
+    .mm-list > li > a {
+        color: #000;
+        font-size: 16px;
+    }
+    .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+        border: none;
+    }
+    .mm-menu .mm-list > li > a.mm-subopen:after,
+    .mm-menu .mm-list > li > a.mm-subclose:before {
+        border-color: #000;
+    }
+    .menu-item-174>a,
+    .menu-item-313>a {
+        background: none;
+    }
+}
+
+
+/* ==================================================================== */
+
+@media all and (min-width: 480px) {}
